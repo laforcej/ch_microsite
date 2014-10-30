@@ -1,0 +1,700 @@
+{
+	"config": {
+		"images_folder": "images"
+	},
+	"section1": {
+		"key": "Interactive_Map",
+		"label": "Intuit Health Marketplace - Interactive Map",
+		"data": {
+			"images_folder": "section1",
+			"map": {
+				"al": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "Alabama",
+						"premium": "136",
+						"carriers": ["Assurant", "Humana"]
+					}			
+				},	
+				"ak": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "Alaska",
+						"premium": "NA",
+						"carriers": ["Aetna", "Assurant", "Premera BCBS"]
+					}			
+				},	
+				"az": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "Arizona",
+						"premium": "241",
+						"carriers": ["Aetna", "Assurant", "BCBS AZ", "Humana"]
+					}			
+				},	
+				"ar": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "Arkansas",
+						"premium": "163",
+						"carriers": ["Assurant", "Humana"]
+					}			
+				},	
+				"ca": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "California",
+						"premium": "157",
+						"carriers": ["Aetna", "Anthem BC Tonik", "Anthem BC of CA", "Assurant", "Blue Shield CA", "CIGNA", "Kaiser"]
+					}			
+				},		
+				"co": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "Colorado",
+						"premium": "194",
+						"carriers": ["Anthem BCBS", "Anthem BCBS Tonik", "Assurant", "CIGNA", "Humana"]
+					}			
+				},	
+				"ct": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "Connecticut",
+						"premium": "306",
+						"carriers": ["Aetna", "CIGNA"]
+					}			
+				},	
+				"dc": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "District of Columbia",
+						"premium": "226",
+						"carriers": ["Aetna", "Assurant"]
+					}			
+				},	
+				"de": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "Delaware",
+						"premium": "169",
+						"carriers": ["Aetna", "Assurant"]
+					}			
+				},			
+				"fl": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "Florida",
+						"premium": "178",
+						"carriers": ["Aetna", "Assurant", "CIGNA", "Humana"]
+					}			
+				},	
+				"ga": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "Georgia",
+						"premium": "220",
+						"carriers": ["Aetna", "Assurant", "BCBS GA", "BCBS GA Tonik", "CIGNA", "Humana"]
+					}			
+				},	
+				"hi": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "Hawaii",
+						"premium": "232",
+						"carriers": []
+					}			
+				},	
+				"id": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "Idaho",
+						"premium": "167",
+						"carriers": ["Assurant"]
+					}			
+				},	
+				"il": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "Illinois",
+						"premium": "203",
+						"carriers": ["Aetna", "Assurant", "BCBS IL", "Humana"]
+					}			
+				},	
+				"in": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "Indiana",
+						"premium": "214",
+						"carriers": ["Anthem", "Assurant", "Humana"]
+					}			
+				},	
+				"ia": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "Iowa",
+						"premium": "210",
+						"carriers": ["Assurant", "Humana"]
+					}			
+				},	
+				"ks": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "Kansas",
+						"premium": "NA",
+						"carriers": ["Aetna", "Assurant", "BCBS Kansas City", "Humana"]
+					}			
+				},	
+				"ky": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "Kentucky",
+						"premium": "210",
+						"carriers": ["Assurant", "Humana"]
+					}			
+				},	
+				"la": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "Louisiana",
+						"premium": "206",
+						"carriers": ["Assurant", "CoventryOne", "Humana"]
+					}			
+				},	
+				"me": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "Maine",
+						"premium": "282",
+						"carriers": ["Assurant"]
+					}			
+				},	
+				"md": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "Maryland",
+						"premium": "219",
+						"carriers": ["Aetna", "Assurant"]
+					}			
+				},	
+				"ma": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "Massachusetts",
+						"premium": "437",
+						"carriers": []
+					}			
+				},	
+				"mi": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "Michigan",
+						"premium": "204",
+						"carriers": ["Aetna", "Assurant", "Humana"]
+					}			
+				},
+				"mn": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "Minnesota",
+						"premium": "250",
+						"carriers": ["Assurant", "Medica"]
+					}			
+				},	
+				"ms": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "Mississippi",
+						"premium": "212",
+						"carriers": ["Assurant", "Humana"]
+					}			
+				},	
+				"mo": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "Missouri",
+						"premium": "197",
+						"carriers": ["Aetna", "Anthem BCBS", "Assurant", "BCBS Kansas City", "Humana"]
+					}			
+				},	
+				"mt": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "Montana",
+						"premium": "191",
+						"carriers": ["Assurant"]
+					}			
+				},	
+				"ne": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "Nebraska",
+						"premium": "233",
+						"carriers": ["Assurant", "Humana"]
+					}			
+				},	
+				"nv": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "Nevada",
+						"premium": "NA",
+						"carriers": ["Aetna", "Anthem BCBS", "Assurant", "Humana"]
+					}			
+				},	
+				"nh": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "New Hampshire",
+						"premium": "294",
+						"carriers": ["Assurant"]
+					}			
+				},	
+				"nj": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "New Jersey",
+						"premium": "364",
+						"carriers": ["Oxford"]
+					}			
+				},	
+				"nm": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "New Mexico",
+						"premium": "NA",
+						"carriers": []
+					}			
+				},	
+				"ny": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "New York",
+						"premium": "357",
+						"carriers": ["Atlantis(Easy Choice)", "Oxford"]
+					}			
+				},
+				"nc": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "North Carolina",
+						"premium": "207",
+						"carriers": ["Aetna", "Assurant", "CIGNA", "Humana"]
+					}
+				},	
+				"nd": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "North Dakota",
+						"premium": "230",
+						"carriers": ["Assurant", "Medica"]
+					}			
+				},				
+				"oh": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "Ohio",
+						"premium": "NA",
+						"carriers": ["Aetna", "Anthem BCBS OH", "Assurant", "Humana"]
+					}			
+				},	
+				"ok": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "Oklahoma",
+						"premium": "NA",
+						"carriers": ["Aetna", "Assurant", "Humana"]
+					}			
+				},	
+				"or": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "Oregon",
+						"premium": "207",
+						"carriers": ["Assurant", "Kaiser"]
+					}			
+				},
+				"pa": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "Pennsylvania",
+						"premium": "225",
+						"carriers": ["Aetna", "Assurant"]
+					}			
+				},	
+				"ri": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "Rhode Island",
+						"premium": "344",
+						"carriers": ["Assurant"]
+					}			
+				},	
+				"sc": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "South Carolina",
+						"premium": "211",
+						"carriers": ["Aetna", "Assurant", "CIGNA", "Humana"]
+					}			
+				},	
+				"sd": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "South Dakota",
+						"premium": "204",
+						"carriers": ["Assurant"]
+					}			
+				},	
+				"tn": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "Tennessee",
+						"premium": "204",
+						"carriers": ["Aetna", "Assurant", "BCBS TN", "CIGNA", "Humana"]
+					}			
+				},	
+				"tx": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "Texas",
+						"premium": "NA",
+						"carriers": ["Aetna", "Assurant", "BCBS TX", "CIGNA", "Humana"]
+					}			
+				},	
+				"ut": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "Utah",
+						"premium": "173",
+						"carriers": ["Assurant", "Humana", "Regence"]
+					}			
+				},	
+				"vt": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "Vermont",
+						"premium": "401",
+						"carriers": []
+					}			
+				},	
+				"va": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "Virginia",
+						"premium": "240",
+						"carriers": ["Aetna", "Assurant", "Humana"]
+					}			
+				},	
+				"wa": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "Washington",
+						"premium": "231",
+						"carriers": ["Assurant", "Kaiser", "Lifewise", "Premera BC"]
+					}			
+				},	
+				"wv": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "West Virginia",
+						"premium": "333",
+						"carriers": ["Assurant"]
+					}			
+				},	
+				"wi": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "Wisconsin",
+						"premium": "201",
+						"carriers": ["Assurant", "Humana"]
+					}			
+				},	
+				"wy": {
+					"highlight": {
+						"top": 47,
+						"left": 135
+					},
+					"content": {
+						"title": "Wyoming",
+						"premium": "267",
+						"carriers": ["Assurant"]
+					}			
+				}
+			}
+		}
+	},
+	"section2": {
+		"key": "Recommendation_Engine",
+		"label": "Intuit Health Marketplace - Recommendation Engine",
+		"data": {
+			"images_folder": "section2",
+			"slides": {
+				"slide0": {
+					"text": [
+						"Our next-generation Recommendation Engine helps employees maximize their health-care budgets and protect themselves against financial risks."
+					],
+					"images": [
+						{"src": "01_01.png"},
+						{"src": "01_02.png"},
+						{"src": "01_03.png"},
+						{"src": "01_04.png"}
+					]
+				},
+				"slide1": {
+					"text": [
+						"Employees can shop for coverage that they pay for completely themselves, or shop using a contribution from their employer. "
+					],
+					"images": [
+						{"src": "02_01.png"}
+					]
+				},
+				"slide2": {
+					"text": [
+						"Recommendations are personalized for each user based on:",
+						"Their age and gender and number of dependents",
+						"Personal<br/>preferences",
+						"Financial risk<br/>tolerance",
+						"Their own<br/>expected<br/>health-care use"
+					],
+					"images": [
+						{"src": "03_01.png"}
+					]
+				}
+			}
+		}
+	},
+	"section3": {
+		"key": "Choosing_A_Plan",
+		"label": "Intuit Health Marketplace - Choosing a Plan",
+		"data": {
+			"images_folder": "section3",
+			"slides": {
+				"slide0": {
+					"text": [
+						"Employees visit the Intuit Health Marketplace to shop for health insurance from national and regional carriers."
+					],
+					"images": [
+						{"src": "01_01.png"},
+						{"src": "01_02.png"},
+						{"src": "01_03.png"}	
+					],
+					"pinLocations": [
+						{"top": 317, "left": 773},
+						{"top": 308, "left": 786},
+						{"top": 396, "left": 600},
+						{"top": 302, "left": 420},
+						{"top": 255, "left": 818},
+						{"top": 375, "left": 732},
+						{"top": 381, "left": 413},
+						{"top": 353, "left": 387},
+						{"top": 316, "left": 378},
+						{"top": 393, "left": 471}
+					]
+				},
+				"slide1": {
+					"text": [
+						"Through our Recommendation Engine, employees receive personalized benefits recommendations based on their own information, budget and preferences.",
+						"Employees see the plans that are best matched to their preferences and can compare full details of those plans."
+					],
+					"images": [
+						{"src": "02_01.png"},
+						{"src": "02_02.png"},
+						{"src": "02_03.png"},
+						{"src": "02_04.png"}
+					]
+				},
+				"slide2": {
+					"text": [
+						"Employees see not only the plan premium, but their maximum costs under that plan, so they can think beyond the premium to understand their total financial risk."
+					],
+					"images": [
+						{"src": "03_01.png"},
+						{"src": "03_02.png"},
+						{"src": "03_03.png"},
+						{"src": "03_04.png"},
+						{"src": "03_05.png"}
+					]
+				},
+				"slide3": {
+					"text": [
+						"An extensive, up-to-date, and searchable<br/>web-based library of articles gives employees<br/>confidence in their choices."
+					],
+					"images": [
+						{"src": "04_01.png"},
+						{"src": "04_02.png"}
+					],
+					"search_box_text": "how does co-insurance work?"
+				},
+				"slide4": {
+					"text": [
+						"Employees can easily select and apply<br/>for benefits options through our innovative<br/>shopping-cart technology."
+					],
+					"images": [
+						{"src": "05_01.png"},
+						{"src": "05_02.png"},
+						{"src": "05_03.png"},
+						{"src": "05_04.png"},
+						{"src": "05_05.png"}
+					]
+				},
+				"slide5": {
+					"text": [
+						"Employers have the option to provide a contribution to employees' premiums or health-care costs."
+					],
+					"images": [
+						{"src": "06_01.png"}
+					]
+				}
+			}
+		}		
+	}
+}

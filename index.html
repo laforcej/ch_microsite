@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Connected Health - Intuit</title>
+<link href="css/styles.css" rel="stylesheet" type="text/css" media="screen" />
+<script language="javascript" type="application/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script language="javascript" type="application/javascript" src="scripts/swfaddress.js"></script>
+<script language="javascript" type="application/javascript" src="scripts/Base.js"></script>
+<script language="javascript" type="application/javascript" src="scripts/MapPopup.js"></script>
+<script language="javascript" type="application/javascript" src="scripts/SlideControls.js"></script>
+<script language="javascript" type="application/javascript" src="scripts/AbstractSection.js"></script>
+<script language="javascript" type="application/javascript" src="scripts/AbstractSlideSection.js"></script>
+<script language="javascript" type="application/javascript" src="scripts/Section1.js"></script>
+<script language="javascript" type="application/javascript" src="scripts/Section2.js"></script>
+<script language="javascript" type="application/javascript" src="scripts/Section3.js"></script>
+<script language="javascript" type="application/javascript" src="scripts/main.js"></script>
+</head>
+
+<body>
+
+<div id="container">
+<div id="content-container">
+    <div id="header">
+        <div id="logo">
+            <img src="images/logo.jpg" width="198" height="52" />
+        </div>            
+        <div id="header-right-content">
+        	<h2>SHOPPING EXPERIENCE</h2>
+            <div id="header-nav">
+                <div><a id="header-nav-1" data-section="Interactive_Map" href="javascript:void(0); return false;">Interactive<br/>Map</a></div>
+                <div><a id="header-nav-2" data-section="Recommendation_Engine" href="javascript:void(0); return false;">Recommendation<br/>Engine</a></div>
+                <div><a id="header-nav-3" data-section="Choosing_A_Plan" href="javascript:void(0); return false;">Choosing a<br/>plan</a></div>
+            </div>
+            <br class="clear"/>
+        </div>
+        <br class="clear"/>
+    </div>
+    <div id="content">
+        <div id="section-1" class="section">
+            <h2>Rollover a state to see average premiums and providers</h2>
+            <div id="map-copyright">&copy; 2013 ConnectedHealth -- All rights reserved. </div>
+			<div id="map-footer">
+                <div>
+                    <h5>Notes</h5>
+                    <ol>         
+                        <li>Premiums are per member per month and represent an average across adults and children. Premiums may be lower than a premium typically charged to a single adult. Only plans in the individual market providing medical coverage were included in the analysis. For additional information on premium variation, please see "Mapping Premium Variation in the Individual Market" available at <a href="http://www.kff.org/healthreform/8214.cfm" target="_blank">http://www.kff.org/healthreform/8214.cfm</a>.</li>
+                        <br/> 
+                        <li>Premium data are not available for HMO plans in California's individual market as these plans are regulated by the California Department of Managed Health Care, which does not report premium revenue by market segment. The data used in this analysis to calculate the average monthly premium revenue in California come from one plan, Wellpoint (Anthem Blue Cross), which represented 57% of enrollment in California's individual market in 2010.</li>
+                    </ol>            
+                </div>
+                <div>
+                    <h5>Definitions</h5>
+                    <p>State Average Premium: Total Revenue in Premiums / Total Member Months of all individual market plans for which data was available in each state.</p>
+                    <p>NA: Not Available.</p>
+                </div>
+                <div>
+                    <h5>Sources</h5>
+                    <p>The state average premium values shown in the figure above represent the total premium revenue divided by the total member months of all major medical individual market plans for which data were available in each state in 2010.</p>
+                    <p>These data were downloaded on July 13, 2011 from the Mark Farrah Associates Health Coverage Portal, which includes information from the National Association of Insurance Commissioners and California's Department of Managed Health Care.</p>
+                    <p>States were classified as "not available" if a major plan was known to be missing and the number of people enrolled in individual major medical insurance, based on the NAIC data, was less than one third (33.3%) of the estimated number of non-elderly people with individual coverage in the state from 2008 - 2009 according to analysis in the Current Population Survey.</p>
+                </div>
+                <br class="clear"/>
+          	</div>
+            <div id="map-highlight"></div>
+            <div id="map">
+                <img id="map-image" src="images/map_default.png" alt="Map of USA" width="739" height="535" border="0" usemap="#Map" />
+                <map name="Map" id="Map">
+                  <area id="nd" href="#" shape="poly" coords="282,38,277,94,367,92,361,42"/>
+                  <area id="wa" href="#" shape="poly" coords="38,8,59,20,52,34,61,39,66,4,128,18,121,68,52,62,38,47"/>
+                  <area id="nm" href="#" shape="poly" coords="197,244,280,252,275,343,194,330,183,336"/>
+                  <area id="or" href="#" shape="poly" coords="36,46,51,64,117,70,123,77,114,101,106,139,12,116,13,99"/>
+                  <area id="mt" href="#" shape="poly" coords="143,19,280,39,278,110,189,100,168,107,148,84,136,36"/>
+                  <area id="id" href="#" shape="poly" coords="129,18,121,72,120,78,105,139,179,154,188,107,164,110,146,84,135,38,141,24"/>
+                  <area id="wy" href="#" shape="poly" coords="190,101,276,111,272,178,179,168"/>
+                  <area id="sd" href="#" shape="poly" coords="280,94,366,95,372,149,314,146,276,145"/>
+                  <area id="mn" href="#" shape="poly" coords="364,44,390,36,453,57,423,80,416,99,416,117,438,137,373,141"/>
+                  <area id="ca" href="#" shape="poly" coords="13,119,66,130,51,181,115,268,117,278,107,311,67,303,66,293,53,271,27,255,17,217,5,166"/>
+                  <area id="nv" href="#" shape="poly" coords="66,132,143,147,124,250,115,249,114,263,54,182"/>
+                  <area id="ut" href="#" shape="poly" coords="145,148,177,155,178,170,202,173,196,243,130,232"/>
+                  <area id="co" href="#" shape="poly" coords="203,173,300,184,297,252,199,244"/>
+                  <area id="az" href="#" shape="poly" coords="127,234,195,246,181,335,158,334,109,313,120,277,115,253"/>
+                  <area id="ne" href="#" shape="poly" coords="276,147,374,151,387,202,302,199,301,179,275,178"/>
+                  <area id="wi" href="#" shape="poly" coords="425,82,439,77,455,88,483,100,489,103,484,123,485,152,452,153,439,140,431,127,418,118,419,99"/>
+                  <area id="il" href="#" shape="poly" coords="451,156,483,155,491,167,495,219,492,229,480,251,475,250,470,249,466,236,461,232,457,217,440,199,438,195"/>
+                  <area id="ia" href="#" shape="poly" coords="373,141,438,139,450,154,438,189,385,190"/>
+                  <area id="mo" href="#" shape="poly" coords="387,191,436,192,439,200,456,219,459,232,466,240,469,252,479,253,466,273,461,260,403,259"/>
+                  <area id="ks" href="#" shape="poly" coords="297,201,387,203,400,251,300,251"/>
+                  <area id="ok" href="#" shape="poly" coords="280,252,399,255,402,313,377,307,355,310,331,301,323,298,321,262,279,262"/>
+                  <area id="mi" href="#" shape="poly" coords="447,80,466,66,487,77,496,74,511,70,530,79,517,89,534,92,537,110,532,118,532,126,544,113,551,132,547,145,543,157,498,161,505,143,500,129,501,109,506,102,510,85,492,88,486,96"/>
+                  <area id="in" href="#" shape="poly" coords="493,167,498,163,525,163,531,211,525,215,517,229,512,231,492,233,496,221"/>
+                  <area id="oh" href="#" shape="poly" coords="527,161,549,161,580,148,584,186,573,201,562,217,549,211,531,207"/>
+                  <area id="tx" href="#" shape="poly" coords="281,265,319,263,320,299,356,313,380,310,407,316,415,357,416,380,384,401,360,416,359,438,337,433,314,401,297,378,285,371,269,380,256,388,245,364,221,338,277,344"/>
+                  <area id="pa" href="#" shape="poly" coords="582,147,649,134,656,144,653,152,659,164,648,173,587,185"/>
+                  <area id="ar" href="#" shape="poly" coords="401,261,459,262,462,269,467,276,454,295,447,315,452,322,412,323,410,313,405,312"/>
+                  <area id="vt" href="#" shape="poly" coords="659,76,681,69,677,77,676,87,679,110,668,111"/>
+                  <area id="nh" href="#" shape="poly" coords="683,65,700,106,690,111,681,110,678,83"/>
+                  <area id="me" href="#" shape="poly" coords="702,102,687,66,697,21,704,19,710,18,719,32,724,44,735,54"/>
+                  <area id="la" href="#" shape="poly" coords="412,324,453,325,451,340,448,358,479,357,481,368,488,388,468,385,457,386,444,379,441,383,429,381,419,378"/>
+                  <area id="ms" href="#" shape="poly" coords="466,282,491,285,493,344,497,366,482,367,478,355,450,355,455,332,452,309"/>
+                  <area id="al" href="#" shape="poly" coords="493,284,529,280,546,326,545,353,511,354,511,367,500,367,495,343"/>
+                  <area id="tn" href="#" shape="poly" coords="466,281,478,259,496,255,579,245,570,257,552,266,547,277"/>
+                  <area id="ky" href="#" shape="poly" coords="479,256,484,247,489,242,491,233,513,231,534,210,560,217,572,231,555,245"/>
+                  <area id="wv" href="#" shape="poly" coords="564,217,586,188,601,185,605,185,625,185,603,206,600,230,581,234"/>
+                  <area id="fl" href="#" shape="poly" coords="511,357,603,350,618,381,635,411,634,440,623,440,602,419,587,402,587,378,569,363,548,371"/>
+                  <area id="ga" href="#" shape="poly" coords="531,280,562,274,569,286,604,319,600,348,548,353,547,324"/>
+                  <area id="sc" href="#" shape="poly" coords="564,276,592,268,609,271,617,271,632,283,615,310,604,321"/>
+                  <area id="nc" href="#" shape="poly" coords="549,275,555,268,577,254,584,244,663,230,668,245,662,265,644,276,642,281,634,285,619,269,592,267"/>
+                  <area id="ak" href="#" shape="poly" coords="64,361,76,356,90,336,148,349,155,459,174,468,188,464,233,499,235,517,222,521,199,503,166,474,140,470,121,463,63,512,42,521,5,531,46,509,61,503,77,481,57,476,48,460,34,452,43,441,59,421,72,419,75,408,56,405,39,418,25,413,51,390,65,384,77,390"/>
+                  <area id="va" href="#" shape="poly" coords="628,185,638,201,646,215,653,222,661,230,563,245,572,232,588,233,601,231,604,208"/>
+                  <area id="ny" href="#" shape="poly" coords="588,144,600,126,593,118,604,117,620,116,629,108,628,97,639,79,656,76,667,112,671,129,673,144,695,140,674,153,662,141,655,139,647,132"/>
+                  <area id="de" href="#" shape="poly" coords="665,192,656,172,653,178,658,192"/>
+                  <area id="nj" href="#" shape="poly" coords="659,144,672,155,668,181,666,183,658,173,661,164,657,152"/>
+                  <area id="ma" href="#" shape="poly" coords="670,114,700,109,723,123,707,129,698,116,671,124"/>
+                  <area id="ri" href="#" shape="poly" coords="690,120,697,117,707,134,697,140"/>
+                  <area id="ct" href="#" shape="poly" coords="672,126,688,120,694,136,674,142"/>
+                  <area id="hi" href="#" shape="poly" coords="275,487,285,480,314,489,339,500,350,505,368,523,362,529,346,533,347,519,336,506,308,494"/>
+                  <area id="md" href="#" shape="poly" coords="655,220,665,194,654,193,649,175,608,183,626,182,633,190,631,182,643,178,647,184,637,196"/>
+                  <area id="dc" href="#" shape="poly" coords="637,193,632,183,640,180,645,185,638,193" />
+                </map>
+          </div>
+          <div id="map-popup">
+            <div id="map-popup-content">
+                <div id="map-popup-section1"></div>
+                <div id="map-popup-section2"></div>
+                <div id="map-popup-section3">
+                    <div id="map-popup-section3-title">Carriers</div>
+                    <div id="map-popup-section3-carrier-list"></div>
+                </div>
+            </div>
+            <div id="map-popup-pointer-right"></div>
+            <div id="map-popup-pointer-left"></div>          
+          </div>
+
+      </div>
+      <div id="section-2" class="section">
+		<div id="section-2-slide-container" class="slide-container"></div>
+        <div id="section-2-slide-controls" class="slide-controls"></div>    
+      </div>
+      <div id="section-3" class="section">
+		<div id="section-3-slide-container" class="slide-container"></div>
+        <div id="section-3-slide-controls" class="slide-controls"></div>
+      </div>
+    </div>
+    <div id="header-indicator"></div>
+</div>
+</div>
+</body>
+</html>
